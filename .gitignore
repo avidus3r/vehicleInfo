@@ -1,0 +1,19 @@
+# OS or Editor folders
+.idea
+.DS_Store
+.cache
+.project
+.settings
+Thumbs.db
+
+# NPM packages folder.
+node_modules/
+
+# Generated folders.
+
+#protected
+.env
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

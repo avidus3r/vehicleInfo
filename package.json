@@ -1,0 +1,26 @@
+{
+  "name": "vinli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "dotenv": "^2.0.0",
+    "express": "latest",
+    "http": "latest",
+    "jade": "latest",
+    "request": "latest",
+    "vinli": "latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "latest",
+    "gulp-nodemon": "^2.2.1"
+  }
+}

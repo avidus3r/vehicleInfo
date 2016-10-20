@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  min-height: 100%; }
+  html body {
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: -.5cm;
+    background: #000;
+    height: 100%;
+    min-height: 100%; }
+    html body .main-app {
+      height: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html body .main-app .page-header {
+        text-align: center;
+        color: #aaFF66;
+        font-size: 15vw;
+        border: none; }

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="vehcileInfo">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
+    <title>vehcileInfo</title>
+    <link rel="stylesheet" href="/styles/vehicle.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/app.module.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div ng-view class="view-frame col-md-12">
+        <div  class="main">
+            <list type="make" ng-model="make"></list>
+            <list class="model" type="model" ng-model="model"></list>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

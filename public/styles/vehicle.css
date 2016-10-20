@@ -1,0 +1,15 @@
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif; }
+    html body .container-fluid {
+      height: 100%; }
+      html body .container-fluid .view-frame {
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        html body .container-fluid .view-frame .model {
+          display: none; }
